@@ -1,0 +1,286 @@
+[
+  {
+    "id": "wordle",
+    "title": "Wordle Application",
+    "thumbnail": "/assets/images/wordle.png",
+    "shortDescription": "A JavaFX-based game inspired by Wordle, developed in a team of five using Scrum methodology. Features include word validation, feedback logic, and a polished graphical interface.",
+    "problemStatement": "During a semester-long software engineering course, I collaborated with four peers to develop a fully functional Wordle-style game using Java and JavaFX. From the outset, we designed the project with real-world software development in mind.",
+    "steps": [
+      {
+        "title": "Scrum & Collaboration",
+        "description": "We implemented the Scrum methodology, organizing our work into sprints and holding regular stand-ups to assess progress and adjust goals. GitLab served as our version control system, allowing us to manage collaboration effectively, merge branches seamlessly, and track development history. These practices mimicked industry standards and taught us how to manage team dynamics and development workflows in a professional setting.",
+        "media": "/assets/images/wordle2.mp4",
+        "mediaType": "video"
+      },
+      {
+        "title": "Core Gameplay & UI",
+        "description": "The foundational version of the game replicated the classic Wordle gameplay, including proper input validation, feedback mechanisms for guesses, and robust win/loss logic. However, we didn't stop there. Our team collectively decided to take on optional extension tasks that pushed the game to become something more. We refined the UI using JavaFX to deliver a clean, responsive, and engaging user interface that felt modern and intuitive. Attention was given to color schemes, animations, and layout consistency to enhance user experience."
+      },
+      {
+        "title": "Advanced Features",
+        "description": "To differentiate our project further, we introduced unique game modes and administrative tools. We built an \"Evil Wordle\" mode, where the game dynamically changed the target word to maximize difficulty and prolong the game—similar to the concept of \"Evil Hangman.\" We also added AI players capable of playing the game algorithmically and created an admin panel that allowed advanced control over gameplay settings, logs, and user sessions. These features not only showcased our creativity but also challenged us to think about game design, logic branching, and state management on a much deeper level.",
+        "media": "/assets/images/wordle3.mp4",
+        "mediaType": "video"
+      },
+      {
+        "title": "Key Learnings",
+        "description": "This project was a major stepping stone in my development journey. I learned how to apply object-oriented programming in a practical context and how to manage feature creep while preserving code quality. The SCRUM process gave me a strong foundation in agile methodology, and our frequent retrospectives helped improve both technical implementation and team communication. The experience also gave me confidence in building GUI applications and affirmed my interest in collaborative, structured development environments."
+      }
+    ],
+    "technologies": ["Java", "JavaFX", "GitLab", "SCRUM"],
+    "order": 1
+  },
+  {
+    "id": "travel-analysis",
+    "title": "Travel Dataset Analysis",
+    "thumbnail": "/assets/images/expedia.png",
+    "shortDescription": "Collaborated on analyzing a travel dataset using both supervised and unsupervised machine learning models. Focused on extracting insights, evaluating performance, and communicating findings through a detailed report.",
+    "problemStatement": "In this data science project, my partner and I explored a massive dataset containing over 100,000 entries related to global travel trends. Our goal was to uncover patterns and test hypotheses using both supervised and unsupervised machine learning models.",
+    "steps": [
+      {
+        "title": "Data Preprocessing",
+        "description": "From the beginning, we treated data preprocessing as a crucial phase—handling missing values, encoding categorical variables, scaling features, and performing exploratory data analysis using visualizations. This step gave us a solid foundation for building effective models and ensured the integrity of our insights.",
+        "media": "/assets/images/world.png",
+        "mediaType": "image"
+      },
+      {
+        "title": "Supervised Learning",
+        "description": "We implemented two supervised learning models: K-Nearest Neighbors (KNN) and Logistic Regression. KNN allowed us to make predictions based on proximity in feature space, making it great for identifying clusters of traveler behaviors, while Logistic Regression gave us probability-based classifications which we used to predict outcomes like travel destination type or likelihood of returning customers. Both models were rigorously evaluated using accuracy, precision, and recall, and we also plotted decision boundaries to visualize how the models performed in different feature spaces."
+      },
+      {
+        "title": "Unsupervised Learning",
+        "description": "For the unsupervised portion of the project, we applied K-Means Clustering to identify latent groupings within the dataset. By experimenting with different values of k and analyzing the resulting inertia and silhouette scores, we were able to segment traveler types into meaningful clusters. These clusters helped support some of our initial hypotheses and led to the discovery of unexpected trends—such as seasonal spikes in certain demographic behaviors or destination preferences based on booking lead time. We compiled our entire workflow, findings, and visualizations into a polished report that explained both our methodology and our conclusions.",
+        "media": "/assets/images/imports.jpg",
+        "mediaType": "image"
+      },
+      {
+        "title": "Key Learnings",
+        "description": "This project significantly deepened my understanding of the machine learning pipeline—from data cleaning to model evaluation—and helped sharpen my skills with Python's data ecosystem. Working in a Jupyter Notebook environment encouraged iterative development and visualization-heavy analysis, which is ideal for data science. Most importantly, the experience gave me confidence in making data-driven decisions, collaborating on technical documents, and translating complex findings into digestible insights."
+      }
+    ],
+    "technologies": ["Python", "Jupyter Notebook", "Scikit-learn", "Pandas", "NumPy"],
+    "sourceCode": "https://github.com/rousseauc1/Travel_Analysis",
+    "order": 2
+  },
+  {
+    "id": "portfolio",
+    "title": "Personal Portfolio Website",
+    "thumbnail": "/assets/images/website.png",
+    "shortDescription": "A responsive website built with TypeScript, React, and Tailwind CSS to showcase my work and skills. Designed with a clean, modern aesthetic and modular code for scalability and performance.",
+    "problemStatement": "My personal portfolio was a solo project designed not just to showcase my technical skills, but also to challenge myself with new technologies and design philosophies. I built it over the course of two months using TypeScript, React, and Tailwind CSS.",
+    "steps": [
+      {
+        "title": "Technology & Deployment",
+        "description": "This project served as an introduction to TypeScript—a typed superset of JavaScript widely used in modern development—and gave me hands-on experience with React's component-based architecture. For deployment, I utilized AWS Amplify, which provided a seamless CI/CD pipeline that automatically builds and deploys the site whenever changes are pushed to the repository. This experience with AWS Amplify taught me about cloud deployment, continuous integration, and how to manage production environments effectively. The primary goal was to create a clean, responsive, and professional space where I could display my projects, resume, and personal background.",
+        "media": "/assets/images/portfolio2.jpg",
+        "mediaType": "image"
+      },
+      {
+        "title": "UX-First Design",
+        "description": "I approached the design with a UX-first mindset, drawing from principles I learned in my classes as well as graphic design experience from high school. I wanted the site to be intuitive, fast, and aesthetically pleasing across devices. Tailwind CSS played a key role in this, helping me write maintainable styles without bloating the codebase. With Tailwind's utility classes, I was able to create sleek layouts, manage spacing, and apply responsive designs all within my React components. I also focused on accessibility and performance, using semantic HTML and optimized routing."
+      },
+      {
+        "title": "Component Architecture",
+        "description": "One of the major lessons from this project was how to manage frontend logic through reusable components and state management. I built modular sections for each page—such as the Projects page with interactive previews and links to detailed writeups—and ensured that routing between pages was smooth and consistent. I also implemented a footer \"Contact Me\" section on every page for easy access to my email and LinkedIn. As the site grew, I began to think more critically about file organization, component responsibility, and scalability, which are essential skills for frontend developers.",
+        "media": "/assets/images/portfolio1.jpg",
+        "mediaType": "image"
+      },
+      {
+        "title": "Key Learnings",
+        "description": "This project was both challenging and incredibly rewarding. Seeing real-time changes and iterating on design elements helped me appreciate the power and flexibility of modern frontend tools. It also gave me a better understanding of how developers work with both logic and layout simultaneously. Beyond the technical skills, it taught me how to present my work thoughtfully and communicate my experiences effectively—something that's essential in both job applications and team environments."
+      }
+    ],
+    "technologies": ["TypeScript", "React", "Tailwind CSS", "Vite", "AWS Amplify"],
+    "sourceCode": "https://github.com/rousseauc1/Portfolio",
+    "order": 3
+  },
+  {
+    "id": "hacksgiving-domes",
+    "title": "Mitchell Park Domes Hackathon (1st Place)",
+    "thumbnail": "/assets/images/hacksgiving/Presentation1.jpg",
+    "shortDescription": "Won 1st place at the MSOE AI Club Hackathon by creating 'The Domes Adventures'—a mobile app that modernizes the visitor experience at the Mitchell Park Domes with AI chatbots, BLE beacon navigation, and interactive scavenger hunts.",
+    "problemStatement": "The Mitchell Park Domes are a Milwaukee landmark that showcases a variety of plant species from around the world. The challenge was to create a software solution that would increase revenue by enhancing the visitor experience through partnerships, engagement, and accessibility—while being user-friendly and easy to implement.",
+    "steps": [
+      {
+        "title": "Hackathon Kickoff & Brainstorming",
+        "description": "We started the process by researching the problem space and brainstorming ideas. After analyzing the Domes' needs around revenue, engagement, and accessibility, we decided to focus on creating a mobile application that would enhance the visitor experience through location-based information and interactive features.",
+        "media": "/assets/images/hacksgiving/DomesGroupPicture.jpg",
+        "mediaType": "image"
+      },
+      {
+        "title": "Rapid Development",
+        "description": "We developed the mobile application using React Native and Expo with extreme programming methods. UX work was done in parallel with backend development. The app includes Dome Detectives—an AI-powered scavenger hunt using picture validation to confirm finds, Botanical Tales—audio stories paced by BLE beacon location, and Sip 'n' Seek—a partnership feature with local cafes that unlocks custom guided tours related to drink ingredients.",
+        "media": "/assets/images/hacksgiving/DomeDetective.png",
+        "mediaType": "image"
+      },
+      {
+        "title": "BLE Beacon Integration",
+        "description": "A core technical challenge was implementing Bluetooth Low Energy beacon tracking to unlock progressive audio tours as visitors move through the facility. We programmed ESP32 microcontrollers and integrated them with our React Native app to deliver location-based content seamlessly.",
+        "media": "/assets/images/hacksgiving/DemoBLELocation.mp4",
+        "mediaType": "video"
+      },
+      {
+        "title": "On-Site Testing at the Domes",
+        "description": "We went to the Domes to test our prototype of the Dome Detective feature. We validated that the Vision Model and LLM were not prone to hallucinations and that the experience was engaging for users. This real-world testing was crucial for refining the user experience.",
+        "media": "/assets/images/hacksgiving/DomeDetectiveTest.mp4",
+        "mediaType": "video"
+      },
+      {
+        "title": "Accessibility & Multilingual Support",
+        "description": "For accessibility, the app offers text-to-speech, adjustable font sizes, and an AI chatbot supporting 95 languages. This focus on inclusivity was a key differentiator that demonstrated our attention to the diverse visitor base at the Domes.",
+        "media": "/assets/images/hacksgiving/VoiceChat.png",
+        "mediaType": "image"
+      },
+      {
+        "title": "Presentation & 1st Place Win",
+        "description": "We presented our project to the judges and audience, focusing on how our solution addressed revenue building strategies and recognized the future of the Domes. Our team was awarded 1st place for our innovative approach that balanced technical innovation with practical business value.",
+        "media": "/assets/images/hacksgiving/WinningTeamPicture.jpg",
+        "mediaType": "image"
+      }
+    ],
+    "technologies": ["React Native", "Expo", "TypeScript", "Node.js", "BLE", "OpenAI API", "GitHub"],
+    "sourceCode": "https://github.com/xDazld/HacksGiving-2025",
+    "order": 4
+  },
+  {
+    "id": "xorbix-optiqual",
+    "title": "Xorbix Innovation Lab Hackathon (3rd Place)",
+    "thumbnail": "/assets/images/xorbix/HeadsetUI1.jpg",
+    "shortDescription": "Earned 3rd place building OptiQual—an autonomous visual QA assistant spanning Desktop, Mobile, and Mixed Reality platforms. Used YOLOv11, custom Vision Transformers, and GPT-5 mini to automate defect detection and decision-making.",
+    "problemStatement": "Xorbix Technologies specializes in providing software solutions across many industries and is the premier Databricks provider in Wisconsin. The challenge was to create a solution that improves Quality Assurance decision-making and defect detection—bridging the gap between detection and actionable recommendations.",
+    "steps": [
+      {
+        "title": "UX Prototyping",
+        "description": "UX worked on Figma designs for the team to use for prototyping the application. We created wireframes and mockups of the user interface across desktop, mobile, and mixed reality platforms to establish a consistent and distraction-free experience for QA operators.",
+        "media": "/assets/images/xorbix/Figma1.png",
+        "mediaType": "image"
+      },
+      {
+        "title": "AI Pipeline Architecture",
+        "description": "The AI pipeline was the core of our solution. We utilized YOLOv11 for real-time object cropping, then passed product images to a custom Vision Transformer (ViT) trained on the Kaputt dataset for defect classification. When a defect was detected, a GPT-5 mini agent recommended specific actions: Rework, Discard, or Escalate. The entire backend was hosted on Databricks with integrated Whisper agents for voice feedback.",
+        "media": "/assets/images/xorbix/Architecture.png",
+        "mediaType": "image"
+      },
+      {
+        "title": "Desktop & Mobile Application",
+        "description": "The desktop and mobile applications were built using Next.js and TailwindCSS. The interface was designed to remove distractions from operators while performing quality assurance inspections, providing real-time defect feedback and recommended courses of action.",
+        "media": "/assets/images/xorbix/DesktopUI1.png",
+        "mediaType": "image"
+      },
+      {
+        "title": "Mixed Reality Prototype",
+        "description": "I started the MR development using MRTK3 and a Meta Quest 3 with camera passthrough to create a prototype. Images were passed to the vision transformer and results were displayed on a canvas that follows the user's body, allowing hands-free QA inspection.",
+        "media": "/assets/images/xorbix/HeadsetPrototype1.mp4",
+        "mediaType": "video"
+      },
+      {
+        "title": "Running YOLO on Quest 3",
+        "description": "A significant technical achievement was getting YOLO running directly on the Meta Quest 3 device. This allowed real-time object detection and cropping in the mixed reality environment without requiring a constant server connection for the initial detection phase.",
+        "media": "/assets/images/xorbix/YoloHeadset.MOV",
+        "mediaType": "video"
+      },
+      {
+        "title": "Presentation & 3rd Place Win",
+        "description": "We presented our cross-platform solution at the Xorbix Innovation Lab final event. Our team earned 3rd place for our innovative approach to autonomous QA, particularly our attention to the business problem and the seamless integration across desktop, mobile, and mixed reality platforms.",
+        "media": "/assets/images/xorbix/Presentation1.jpg",
+        "mediaType": "image"
+      }
+    ],
+    "technologies": ["Next.js", "React", "TailwindCSS", "Python", "PyTorch", "YOLO", "OpenAI API", "Databricks", "FastAPI", "Meta Quest 3"],
+    "sourceCode": "https://github.com/MAIC-Innovation-Labs/2025-2026-xorbix-innovation-lab-xorvengers",
+    "order": 5
+  },
+  {
+    "id": "rosie-dashboard",
+    "title": "Rosie Supercomputer Dashboard",
+    "thumbnail": "/assets/images/rosie/dashboard.png",
+    "shortDescription": "Building a real-time monitoring ecosystem for MSOE's supercomputing cluster with an AI-powered natural language interface, gesture-based kiosk navigation, and containerized deployment.",
+    "problemStatement": "This was a project for my Software Development Lab at MSOE. I'm part of a four-person Scrum team building a real-time monitoring ecosystem for the university's supercomputing cluster. Our goal is to transform raw hardware data into an intuitive visual experience and an AI-powered natural language interface for students and faculty.",
+    "steps": [
+      {
+        "title": "System Archaeology & Legacy Recovery",
+        "description": "One of our first challenges was overcoming significant documentation gaps. We explored the supercomputer's management environment to identify active code paths and resolve repository conflicts. The team reverse-engineered an undocumented Node.js server and successfully fixed a broken Leaderboard API that tracks community resource usage—bringing a critical feature back online."
+      },
+      {
+        "title": "Real-Time Visualization Dashboard",
+        "description": "We developed a modern web application using Next.js (React 19) and Chakra UI to monitor system health, temperatures, and resource utilization across the entire supercomputer. The dashboard displays live metrics and provides an intuitive interface for students and faculty to understand cluster performance at a glance."
+      },
+      {
+        "title": "NVIDIA Jetson & Kiosk Hardware",
+        "description": "I took the lead on setting up the NVIDIA Jetson hardware and configuring the Linux environment for our interactive kiosk. This involved getting the Jetson deployment-ready, configuring it for a 4K display, and ensuring reliable operation for the gesture-based interface that runs continuously in the MSOE computing lab."
+      },
+      {
+        "title": "Gesture-Based Navigation",
+        "description": "We implemented hand-mapping and gestural navigation using a webcam connected to the Jetson hardware. This allows for touchless interaction with the dashboard—users can navigate through metrics, view job statuses, and interact with the system without physically touching the kiosk."
+      },
+      {
+        "title": "AI Chatbot with Llama 3.3",
+        "description": "We're integrating Llama 3.3 running directly on the Rosie supercomputer to power a natural language chatbot. Since the kiosk is a display-only interface without a keyboard, we're building speech-to-text capabilities so users can ask questions verbally and receive live metrics, job statuses, and system information through voice interaction."
+      },
+      {
+        "title": "Database & Containerized Deployment",
+        "description": "The system uses a MariaDB database where we execute SQL queries for various data operations including user tracking, job history, and resource metrics. We manage the deployment of web services via Docker and GitLab Container Registries, ensuring seamless updates to the cluster's management nodes."
+      },
+      {
+        "title": "Agile Process & Ongoing Development",
+        "description": "We shifted toward a 'demo-ready' workflow, breaking down vague requirements into manageable sprint tasks and implementing continuous merging to ensure system stability. This project continues to evolve as we add new features and refine the user experience based on feedback from the MSOE community."
+      }
+    ],
+    "technologies": ["Next.js", "React 19", "Node.js", "TailwindCSS", "Docker", "GitLab CI/CD", "MariaDB", "SQL", "Linux", "SCRUM"],
+    "order": 6
+  },
+  {
+    "id": "fish-image-analysis",
+    "title": "FISH Image Analysis with Mayo Clinic",
+    "thumbnail": "/assets/images/fish/thumbnail.png",
+    "shortDescription": "Partnered with Mayo Clinic in a team of four to automate Fluorescence In Situ Hybridization (FISH) image analysis using two deep-learning pipelines—a binary validity classifier and a dual-head probe counter—achieving F1 scores of 0.91 and 0.96.",
+    "problemStatement": "As part of a semester-long practicum in partnership with Mayo Clinic, our team of four set out to automate Fluorescence In Situ Hybridization (FISH) image analysis. FISH is a laboratory technique used to detect genetic abnormalities, but analyzing the resulting images manually is slow and labor-intensive. We tackled the problem with two deep-learning pipelines: a binary validity classifier (Task 1) and a dual-head probe counter (Task 2).",
+    "steps": [
+      {
+        "title": "Task 1: Binary Validity Classifier",
+        "description": "For Task 1, I built a hybrid EfficientNetB1 + U-Net model in TensorFlow/Keras to classify FISH images as Marked or Rejected. To handle the imbalanced dataset, I used Binary Focal Cross-Entropy with class weighting, along with a two-phase training schedule—first training with a frozen backbone, then fine-tuning the full network. The final model achieved an F1 score of 0.91 on Marked vs. Rejected classification."
+      },
+      {
+        "title": "Task 2: Dual-Head Probe Counter",
+        "description": "For Task 2, I built a model in PyTorch to count red and green probes in each image, using a DINOv3 ViT-S/16 backbone with dual CORAL ordinal heads. Class imbalance was a major challenge, so I applied LDAM margins, weighted sampling, and validation-calibrated thresholds. The final model achieved a combined F1 score of 0.96 across 5-class classification."
+      },
+      {
+        "title": "HPC Training & Clinical Delivery",
+        "description": "All models were trained and evaluated on a SLURM-managed multi-GPU HPC cluster. We delivered reproducible models, predictions, and performance reports to Mayo Clinic for clinical review, ensuring our work could be validated and built upon by their team."
+      },
+      {
+        "title": "Key Learnings",
+        "description": "This project gave me hands-on experience taking deep-learning research from problem definition to clinical deliverables. I deepened my skills in both TensorFlow and PyTorch, learned techniques for handling severe class imbalance, and gained experience running reproducible experiments on shared HPC infrastructure—all while collaborating closely with a real clinical partner."
+      }
+    ],
+    "technologies": ["Python", "TensorFlow", "Keras", "PyTorch", "EfficientNet", "U-Net", "DINOv3", "Vision Transformers", "SLURM", "HPC"],
+    "order": 7
+  },
+  {
+    "id": "brain-aneurysm-detection",
+    "title": "Brain Aneurysm Detection & Segmentation",
+    "thumbnail": "/assets/images/aneurysm/thumbnail.png",
+    "shortDescription": "Developed a two-stage 3D deep learning pipeline for automated aneurysm detection in CTA scans, achieving 89.6% detection sensitivity. Selected to present at MICS 2026 and the MSOE Rosie Competition poster session.",
+    "problemStatement": "As part of an MSOE AI Club initiative and a global Kaggle competition, our team of four developed a two-stage 3D deep learning pipeline for automated brain aneurysm detection in CTA (Computed Tomography Angiography) scans. The goal was to help identify aneurysms—which can be life-threatening if missed—more reliably and efficiently than manual review alone.",
+    "steps": [
+      {
+        "title": "Deterministic Geometry Pipeline",
+        "description": "We orchestrated a deterministic geometry pipeline to standardize over 1 million DICOM slices into unified 3D volumes. By utilizing 13 arterial masks, we focused model training on high-relevance vascular structures, dramatically reducing noise and improving the signal available to the model."
+      },
+      {
+        "title": "Training on the ROSIE Supercomputer",
+        "description": "We leveraged MSOE's ROSIE Supercomputer to perform progressive fine-tuning on NVIDIA H100 GPUs. This iterative approach allowed us to achieve an 89.6% detection sensitivity and a 59% improvement in composite score over the baseline."
+      },
+      {
+        "title": "Presenting the Research",
+        "description": "Our team was selected to present our research findings and methodology at MICS 2026 and the MSOE Rosie Competition poster session—a great opportunity to share our approach with the broader research community and get feedback from experts in the field."
+      },
+      {
+        "title": "Key Learnings",
+        "description": "This project taught me how to work with large-scale medical imaging data, from raw DICOM handling to 3D volume construction and model training on high-end GPU hardware. It also strengthened my ability to communicate technical research, both within the team and to external audiences at conferences and competitions."
+      }
+    ],
+    "technologies": ["Python", "PyTorch", "3D Deep Learning", "DICOM", "NVIDIA H100", "ROSIE Supercomputer", "Kaggle"],
+    "order": 8
+  }
+]
