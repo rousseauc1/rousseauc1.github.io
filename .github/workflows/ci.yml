@@ -1,0 +1,94 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    name: Lint & Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
+
+      - name: Upload build output
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+  audit:
+    name: Vulnerability audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Audit dependencies (high severity and above)
+        run: npm audit --audit-level=high
+
+  smoke-test:
+    name: Smoke test site
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download build output
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+
+      - name: Serve site
+        run: npx serve -s dist -l 4173 &
+
+      - name: Wait for server
+        run: |
+          for i in $(seq 1 30); do
+            if curl -sf http://localhost:4173/ > /dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          echo "Server did not start in time"
+          exit 1
+
+      - name: Check homepage responds with app root
+        run: |
+          status=$(curl -s -o response.html -w "%{http_code}" http://localhost:4173/)
+          echo "HTTP status: $status"
+          if [ "$status" != "200" ]; then
+            echo "Homepage did not return 200"
+            exit 1
+          fi
+          if ! grep -q 'id="root"' response.html; then
+            echo "Homepage HTML is missing the app root element"
+            exit 1
+          fi
+
+      - name: Check JS bundle is served
+        run: |
+          bundle=$(grep -o 'src="/assets/[^"]*\.js"' response.html | head -n 1 | sed 's/src="//;s/"//')
+          if [ -z "$bundle" ]; then
+            echo "No JS bundle referenced in the homepage HTML"
+            exit 1
+          fi
+          echo "Checking bundle: $bundle"
+          curl -sf "http://localhost:4173$bundle" > /dev/null
