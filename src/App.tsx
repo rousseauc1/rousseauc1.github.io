@@ -5,6 +5,7 @@ import Footer from "./components/Footer"
 import NavBar from "./components/NavBar"
 import Home from "./pages/Home"
 import Projects from "./pages/Projects"
+import Experience from "./pages/Experience"
 import Resume from "./pages/Resume"
 import About from "./pages/About"
 import Header from './components/Header';
@@ -26,6 +27,7 @@ const App = () => {
               <Route path="/" element={<Home />} />
               <Route path="/Home" element={<Home />} />
               <Route path="/Projects" element={<Projects />} />
+              <Route path="/Experience" element={<Experience />} />
               <Route path="/Resume" element={<Resume />} />
               <Route path="/About" element={<About />} />
               <Route path="/ProjectOne" element={<ProjectOne />} />

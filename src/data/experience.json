@@ -23,16 +23,5 @@
     "description": "Working with GE Healthcare on internal tooling, focusing on organizing and visualizing system microservices to improve workflow insight. Designing front-end interfaces that help engineers monitor processes and support more effective automated testing.",
     "skills": ["Python", "Linux", "HTML", "CSS", "GitLab"],
     "order": 2
-  },
-  {
-    "id": "raised-grain-cook",
-    "company": "Raised Grain Brewing Co.",
-    "role": "Cook",
-    "type": "Part-time",
-    "duration": "Jun 2022 - Sep 2025",
-    "location": "Waukesha, Wisconsin, United States",
-    "description": "Prepared and cooked food while maintaining strict sanitary conditions and working closely with the kitchen team. Known for dependability and leadership—led junior cooks in the kitchen to ensure timely service during busy shifts. Commended multiple times by management for quality of work and reliability.",
-    "skills": ["Time Management", "Teamwork", "Food Preparation", "Sanitation"],
-    "order": 3
   }
 ]
