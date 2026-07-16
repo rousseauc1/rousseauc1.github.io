@@ -20,7 +20,7 @@ const Footer = () => {
                 <img
                     src="/assets/images/contactpic.jpg"
                     alt="Profile"
-                    className="w-56 sm:w-64 md:w-72 h-auto object-cover rounded shadow-lg dark:shadow-gray-800/50"
+                    className="w-56 sm:w-64 md:w-72 h-auto object-cover rounded-sm shadow-lg dark:shadow-gray-800/50"
                 />
             </div>
 
@@ -28,7 +28,7 @@ const Footer = () => {
             <form
                 action="https://formspree.io/f/movervry"
                 method="POST"
-                className="flex-[2] flex flex-col gap-3 sm:gap-4"
+                className="flex-2 flex flex-col gap-3 sm:gap-4"
                 onSubmit={(e) => {
                     e.preventDefault();
                     const form = e.target as HTMLFormElement;

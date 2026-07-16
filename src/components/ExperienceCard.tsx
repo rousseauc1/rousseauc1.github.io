@@ -41,7 +41,7 @@ const ExperienceCard = ({
             }}
         >
             {/* Date rail (md+) */}
-            <div className="hidden md:flex w-28 lg:w-36 flex-shrink-0 flex-col items-end pt-1 gap-1">
+            <div className="hidden md:flex w-28 lg:w-36 shrink-0 flex-col items-end pt-1 gap-1">
                 <span className="text-[0.65rem] uppercase tracking-[0.2em] text-[#f5f0e6]/55 dark:text-gray-400">
                     {ordinal}
                 </span>
@@ -51,7 +51,7 @@ const ExperienceCard = ({
             </div>
 
             {/* Spine + glowing node */}
-            <div className="flex flex-col items-center flex-shrink-0">
+            <div className="flex flex-col items-center shrink-0">
                 <div className="relative flex items-center justify-center w-5 h-5 sm:w-6 sm:h-6 z-10">
                     <span
                         className="absolute inset-0 rounded-full bg-[#f5f0e6]/25 dark:bg-gray-300/20

@@ -32,7 +32,7 @@ const BackToTopArrow = () => {
                     className="fixed bottom-8 right-8 p-3 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-100 
                     rounded-full shadow-lg border-2 border-gray-300 dark:border-gray-600 
                     hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-300 
-                    focus:outline-none focus:ring-2 focus:ring-gray-400 dark:focus:ring-gray-600 
+                    focus:outline-hidden focus:ring-2 focus:ring-gray-400 dark:focus:ring-gray-600 
                     dark:shadow-gray-800/50 hover:scale-110"
                     aria-label="Back to top"
                 >

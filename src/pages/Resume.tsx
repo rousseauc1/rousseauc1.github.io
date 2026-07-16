@@ -41,7 +41,7 @@ const Resume = () => {
                 <div className="text-center mt-4 sm:mt-6 md:mt-8">
                     <button
                         onClick={handleDownload}
-                        className="mb-4 sm:mb-6 md:mb-8 px-4 sm:px-6 py-2 sm:py-3 bg-blue-500 dark:bg-blue-600 text-white rounded hover:bg-blue-600 dark:hover:bg-blue-500 transition-colors duration-300 text-sm sm:text-base md:text-lg"
+                        className="mb-4 sm:mb-6 md:mb-8 px-4 sm:px-6 py-2 sm:py-3 bg-blue-500 dark:bg-blue-600 text-white rounded-sm hover:bg-blue-600 dark:hover:bg-blue-500 transition-colors duration-300 text-sm sm:text-base md:text-lg"
                     >
                         Download Resume
                     </button>

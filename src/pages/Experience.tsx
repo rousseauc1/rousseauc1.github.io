@@ -10,15 +10,15 @@ const Experience = () => {
             {/* Atmospheric depth layers */}
             <div className="pointer-events-none absolute inset-0" aria-hidden="true">
                 <div
-                    className="absolute -top-24 -left-24 w-[28rem] h-[28rem] rounded-full opacity-30 dark:opacity-20 blur-3xl"
+                    className="absolute -top-24 -left-24 w-md h-112 rounded-full opacity-30 dark:opacity-20 blur-3xl"
                     style={{ background: 'radial-gradient(circle, #f5f0e6 0%, transparent 70%)' }}
                 />
                 <div
-                    className="absolute top-1/3 -right-32 w-[32rem] h-[32rem] rounded-full opacity-25 dark:opacity-15 blur-3xl"
+                    className="absolute top-1/3 -right-32 w-lg h-128 rounded-full opacity-25 dark:opacity-15 blur-3xl"
                     style={{ background: 'radial-gradient(circle, #4a3e32 0%, transparent 65%)' }}
                 />
                 <div
-                    className="absolute -bottom-20 left-1/4 w-[24rem] h-[24rem] rounded-full opacity-20 dark:opacity-10 blur-3xl"
+                    className="absolute -bottom-20 left-1/4 w-[24rem] h-96 rounded-full opacity-20 dark:opacity-10 blur-3xl"
                     style={{ background: 'radial-gradient(circle, #94877a 0%, transparent 70%)' }}
                 />
                 {/* Soft vignette */}

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-gray-800 transition-colors duration-300">
-            <main className="flex-grow">
+            <main className="grow">
                 {/* Hero Section */}
                 <section className="flex justify-center items-center min-h-[70vh] bg-[#f5f0e6] dark:bg-gray-700 px-4 py-24 md:py-32 relative overflow-hidden transition-colors duration-300">
                     {/* Decorative Elements */}
