@@ -8,8 +8,8 @@ const About = () => {
                     <div className="bg-white dark:bg-gray-600 p-4 sm:p-6 md:p-8 rounded-lg shadow-md dark:shadow-gray-700/50 transition-colors duration-300 space-y-4 sm:space-y-6">
                         <p className="text-sm sm:text-base md:text-lg text-[#1b1b1d] dark:text-gray-200 leading-relaxed transition-colors duration-300">
                             My name is Cade Rousseau and I'm a incoming junior at MSOE, studying Software Engineering. 
-                            Additionally, I'm pursuing a minor in Data Science. I am currently looking for an
-                            internship part-time during the school year, and / or during the summer of 2026.
+                            Additionally, I'm pursuing a minor in Data Science. I am currently looking for full-time
+                            roles starting May 2027, or part-time during the school year, as I am set to graduate.
                         </p>
                         <p className="text-sm sm:text-base md:text-lg text-[#1b1b1d] dark:text-gray-200 leading-relaxed transition-colors duration-300">
                             I'm from Waukesha, WI. Some of my hobbies are going to the gym, cars, skiing, sports and 
@@ -31,11 +31,10 @@ const About = () => {
                 <div className="bg-white dark:bg-gray-600 p-4 sm:p-6 md:p-8 mt-8 sm:mt-12 md:mt-16 rounded-lg shadow-md dark:shadow-gray-700/50 transition-colors duration-300">
                     <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#1b1b1d] dark:text-gray-100 mb-4 sm:mb-6 transition-colors duration-300">Career Goals & Aspirations</h2>
                     <p className="text-sm sm:text-base md:text-lg text-[#1b1b1d] dark:text-gray-200 leading-relaxed transition-colors duration-300">
-                        I aspire to work in the field of software engineering, focusing on developing innovative 
-                        solutions that can make a difference. As of now, I don't have a specific area of interest, 
-                        as I am open to all opportunities to learn and grow. My goal is to contribute 
-                        to projects that have a positive impact on society and to continuously learn and grow 
-                        in my career.
+                        I am interested in working with AI at companies that are expanding and developing new
+                        products in that space. I am also drawn to utilizing machine learning or data science
+                        within the field in some way. Overall, my goal is to construct meaningful software that
+                        contributes to cool and impactful projects in the real world.
                     </p>
                 </div>
 
