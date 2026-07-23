@@ -276,7 +276,7 @@
       },
       {
         "title": "Accessibility & Multilingual Support",
-        "description": "Inclusivity was a core design goal. The app offers accessibility controls, language switching, and voice chat, with a full Spanish UI (Accesibilidad, Idioma, and localized nav labels like Cuentos Botánicos and Detective de Domos)—supporting a diverse visitor base beyond a single language.",
+        "description": "Inclusivity was a core design goal. The UI can display in 10 languages, and the AI voice chat can speak 99 languages, alongside accessibility controls like text-to-speech and adjustable font sizes. The Spanish menu in the screenshot (Accesibilidad, Idioma, Cuentos Botánicos) is one example of that localized experience for Domes visitors.",
         "media": "/assets/images/milwaukee_domes/multi-lanaguage.jpg",
         "mediaType": "image"
       },
