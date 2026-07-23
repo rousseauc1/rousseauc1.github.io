@@ -61,7 +61,7 @@ const Home = () => {
                             </div>
                             <div className="w-full h-[300px] sm:h-[400px] md:h-[500px] rounded-lg overflow-hidden shadow-xl dark:shadow-gray-700/50">
                                 <img 
-                                    src="/assets/images/canada2.jpg" 
+                                    src="/assets/images/site/canada2.jpg" 
                                     alt="About Cade" 
                                     className="w-full h-full object-cover"
                                 />
@@ -77,7 +77,7 @@ const Home = () => {
                             <div className="w-full h-[250px] sm:h-[300px] md:h-[400px] rounded-lg overflow-hidden shadow-xl dark:shadow-gray-700/50">
                                 <div className="w-full h-full flex items-center justify-center">
                                     <img 
-                                        src="/assets/images/innovation.gif" 
+                                        src="/assets/images/site/innovation.gif" 
                                         alt="About Cade" 
                                         className="w-[90%] h-[90%] object-contain"
                                     />
@@ -108,7 +108,7 @@ const Home = () => {
                                 I am excited to continue this journey, pushing boundaries and creating innovative solutions.
                             </div>
                             <img 
-                                src="/assets/images/Git-Commit-Chart.png" 
+                                src="/assets/images/site/Git-Commit-Chart.png" 
                                 alt="Timeline" 
                                 className="w-full h-full object-cover my-6 sm:my-8 md:my-10"
                             />

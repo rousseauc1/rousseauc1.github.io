@@ -1,5 +1,5 @@
 const Resume = () => {
-    const resumePdfPath = '/assets/images/CadeRousseau_Resume_FullStack.pdf';
+    const resumePdfPath = '/assets/images/resume/CadeRousseau_Resume_FullStack.pdf';
 
     const handleDownload = () => {
         // Create a temporary anchor element
@@ -49,7 +49,7 @@ const Resume = () => {
                 {/* Front of Resume */}
                 <div className="w-full h-auto rounded-lg overflow-hidden shadow-xl dark:shadow-gray-700/50 mb-6 md:mb-8">
                     <img
-                        src={'/assets/images/resume-1.png'}
+                        src={'/assets/images/resume/resume-1.png'}
                         alt="Cade's Resume - Front"
                         className="w-full max-w-[600px] h-auto mx-auto object-contain border border-gray-300 dark:border-gray-600 shadow-lg dark:shadow-gray-700/50 transition-colors duration-300"
                     />
@@ -58,7 +58,7 @@ const Resume = () => {
                 {/* Back of Resume */}
                 <div className="w-full h-auto rounded-lg overflow-hidden shadow-xl dark:shadow-gray-700/50">
                     <img
-                        src={'/assets/images/resume-2.png'}
+                        src={'/assets/images/resume/resume-2.png'}
                         alt="Cade's Resume - Back"
                         className="w-full max-w-[600px] h-auto mx-auto object-contain border border-gray-300 dark:border-gray-600 shadow-lg dark:shadow-gray-700/50 transition-colors duration-300"
                     />

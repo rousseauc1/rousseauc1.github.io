@@ -20,7 +20,7 @@ const About = () => {
                     {/* Image Section */}
                     <div className="w-full h-auto rounded-lg overflow-hidden">
                         <img
-                            src={'/assets/images/Car2.jpg'}
+                            src={'/assets/images/site/Car2.jpg'}
                             alt="Image of Cade"
                             className="w-full max-w-[500px] h-auto object-cover border border-gray-300 dark:border-gray-600 shadow-lg dark:shadow-gray-700/50 transition-colors duration-300"
                         />

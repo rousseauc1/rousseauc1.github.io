@@ -12,13 +12,13 @@ const Footer = () => {
                 <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 transition-colors duration-300">rousseauc@msoe.edu</p>
                 <a href="https://www.linkedin.com/in/caderousseau/" target="_blank" rel="noopener noreferrer">
                     <img
-                        src="/assets/images/linkedIn1.png"
+                        src="/assets/images/site/linkedIn1.png"
                         alt="LinkedIn Logo"
                         className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8"
                     />
                 </a>
                 <img
-                    src="/assets/images/contactpic.jpg"
+                    src="/assets/images/site/contactpic.jpg"
                     alt="Profile"
                     className="w-56 sm:w-64 md:w-72 h-auto object-cover rounded-sm shadow-lg dark:shadow-gray-800/50"
                 />
